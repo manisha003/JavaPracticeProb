@@ -26,9 +26,9 @@ public class ArrayProblem1 {
             		 secondhighest = highestnum1;
             		 highestnum1 = arry[i];
             	 }
-//            	 }else if( arry[i]>secondhighest & arry[i]!= highestnum1) {
-//            		 secondhighest = arry[i];
-//          	 }
+            	else if( arry[i]>secondhighest && arry[i]!= highestnum1) {
+            		 secondhighest = arry[i];
+          	 }
             	
             }
         	System.out.println(" highest number is  : " + highestnum1 + " second highest is : " + secondhighest);

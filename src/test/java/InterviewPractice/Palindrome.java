@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Palindrome {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// A palindrome string is a string that reads the same forward and backward.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Name:");
 		 String s = sc.nextLine();
