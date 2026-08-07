@@ -1,4 +1,4 @@
-package JavaStringQuestions;
+package MapPrroblem;
 
 import java.util.HashMap;
 import java.util.Map;

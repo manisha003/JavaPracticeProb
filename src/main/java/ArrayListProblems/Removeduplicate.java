@@ -7,7 +7,7 @@ import java.util.List;
 public class Removeduplicate {
 
 	public static void main(String[] args) {
-		// remove duplicate from the arraylist
+		// remove duplicate from the arraylist with hashset
 		
 		List<String> list = new ArrayList<>();
 		list.add("man");
@@ -17,10 +17,12 @@ public class Removeduplicate {
 		list.add("boy");
 		list.add("women");
 		
-		System.out.println("list are:" + list);
+		System.out.println("Old list are:" + list);
 		
 		HashSet<String>removeduplicate = new HashSet<>(list);
-		System.out.println("after removal" + removeduplicate);
+		List<String>uniqueArrayList = new ArrayList<>(removeduplicate);
+	    System.out.println("remove duplicates from the list : " + uniqueArrayList);
+	    
 
 	}
 	

@@ -1,4 +1,4 @@
-package JavaPractice.java;
+package ArrayListProblems;
 
 import java.util.ArrayList;
 import java.util.HashSet;

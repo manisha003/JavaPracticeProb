@@ -22,7 +22,7 @@ public class MovesZerostoEnd {
 //		System.out.println("shifting all zeros to the end " + Arrays.toString(a1));
 		
 		
-		// with using Index
+		// with using Index Two pinter approach
 		int arr[] = {1,0,9,0,5,0,3,5,0};
         int index = 0;
 

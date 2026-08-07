@@ -1,4 +1,4 @@
-package JavaPractice.java;
+package ArrayProblem;
 
 public class ArrayProblem1 {
 

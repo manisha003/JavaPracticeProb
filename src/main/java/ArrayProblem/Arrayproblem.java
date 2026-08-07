@@ -1,4 +1,4 @@
-package JavaPractice.java;
+package ArrayProblem;
 
 import java.util.Arrays;
 
@@ -62,11 +62,13 @@ public class Arrayproblem {
 		
 		//program to remove the specific element from an array
 		int [] arr2 = {44,23,49,98,11,65,45,29,77};
-		int removeNum = 2;
-		for(int i=removeNum; i<arr2.length-1; i++) {
-			arr2[i] = arr2[i+1];
+		int removeNum = 11;
+		for(int i=0; i<arr2.length; i++) {
+              if(arr2[i]==removeNum) {
+            	  
+              }
 		}
-        System.out.println("After removing the 2nd element: " + Arrays.toString(arr2));
+        System.out.println("After removing the element: " + Arrays.toString(arr2));
           
           
         //Program to remove duplicate , we can do with hashset

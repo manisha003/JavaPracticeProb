@@ -1,4 +1,4 @@
-package ArrayListProblems;
+package ArrayProblem;
 
 public class SecondHighest {
 
